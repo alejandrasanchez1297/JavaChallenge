@@ -8,8 +8,8 @@ public class Account {
 	private Customer custumer;
 	private AccountStatus status;
 	private ShoppingCart cart;
-	private List <Address> addresses;
-	private List <PaymentMethod> methods;
+	private List addresses;
+	private List methods;
 	
 	public Account() {
 		

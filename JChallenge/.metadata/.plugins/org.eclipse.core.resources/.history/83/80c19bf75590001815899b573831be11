@@ -19,7 +19,7 @@ public class Order {
 		items.add(i);
 	
 	}
-	private double getTotal() {
+	private double setTotal() {
 		
 		
 		for(int i=0;i<items.size();i++)
