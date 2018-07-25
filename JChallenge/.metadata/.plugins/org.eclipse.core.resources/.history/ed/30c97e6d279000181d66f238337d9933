@@ -1,0 +1,13 @@
+package Mundo;
+
+public class LineItem {
+
+	private int quantity;
+	private double price;
+	private Product product;
+	
+	public LineItem() {
+		
+	}
+	
+}

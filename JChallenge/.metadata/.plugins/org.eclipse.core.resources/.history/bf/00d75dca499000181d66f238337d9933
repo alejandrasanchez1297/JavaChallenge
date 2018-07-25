@@ -1,0 +1,21 @@
+package AccountWorld;
+
+public class LineItem {
+
+	private int quantity;
+	private double price;
+	private Product product;
+	
+	public LineItem(int q, double prc, Product prdt) {
+		quantity=q;
+		price=prc;
+		product=prdt;
+	}
+	public double getPrice() {
+		return price;
+	}
+	public int getQuantity() {
+		return quantity;
+	}
+	
+}

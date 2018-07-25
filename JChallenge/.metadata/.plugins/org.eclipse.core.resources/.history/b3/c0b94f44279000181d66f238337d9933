@@ -1,0 +1,7 @@
+package Mundo;
+
+public enum AccountStatus {
+
+	ACTIVE, BLOCKED, CLOSED
+	
+}
