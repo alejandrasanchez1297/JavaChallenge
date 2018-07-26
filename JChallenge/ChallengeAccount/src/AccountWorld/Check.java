@@ -2,10 +2,11 @@ package AccountWorld;
 
 public class Check extends PaymentMethod{
 	
+/**
+ * Attributes
+ */
 	private int number;
-	
 	private int bankId;
-	
 	private String holder;
 	
 /** Métodos */

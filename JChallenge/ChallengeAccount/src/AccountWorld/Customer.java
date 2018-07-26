@@ -3,7 +3,9 @@ package AccountWorld;
 
 public class Customer implements java.io.Serializable {
 
-/** Attributes */
+/** 
+ * Attributes 
+ */
 
 	private int id;
 	private int contact;

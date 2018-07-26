@@ -2,6 +2,9 @@ package AccountWorld;
 
 public class Address {
 
+/**
+ * Attributes	
+ */
 	private int id;
 	private String city;
 	private String country;
@@ -9,8 +12,18 @@ public class Address {
 	private String lineTwo;
 	private boolean billingAddress;
 	
-	public Address() {
+/**
+ * Methods
+ */
+	
+	public Address(int ID, String ct, String ctr, String L1, String L2, boolean bA) {
 		
+		id=ID;
+		city=ct;
+		country=ctr;
+		lineOne=L1;
+		lineTwo=L2;
+		billingAddress=bA;
 	}
 	
 	public String getAddress() {
