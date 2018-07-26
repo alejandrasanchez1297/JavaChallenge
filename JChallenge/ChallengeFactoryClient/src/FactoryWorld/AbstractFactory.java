@@ -1,6 +1,7 @@
 package FactoryWorld;
 
 public interface AbstractFactory {
-	public 
+	public ProductA createProductA();
+	public ProductB createProductB();
 
 }
