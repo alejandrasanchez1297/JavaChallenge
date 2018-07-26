@@ -11,17 +11,19 @@ public class Order {
 	private double total;
 	private List<LineItem> items;
 	
-	private Order() {
+	private Order(LineItem item) {
 		items = new ArrayList<LineItem>();
+		items.add(item);
 		total=0;
 	}
 	private void addItem(LineItem i) {
 		items.add(i);
 	
 	}
-	private double getTotal() {
+	
+	private double setTotal() {
 		
-		
+		total=0;
 		for(int i=0;i<items.size();i++)
 		{
 			LineItem temp =items.get(i);
