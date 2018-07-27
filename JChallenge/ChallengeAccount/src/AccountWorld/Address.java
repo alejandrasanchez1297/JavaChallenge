@@ -29,6 +29,10 @@ public class Address {
 	public String getAddress() {
 		return lineOne+" "+lineTwo+", "+city+" ("+country+").";
 	}
-	
+	public static void main(String[] args) {
+		Address test = new Address(1234,"Bogota","Colombia","calle 27 #67-11","Apartamento 804 T2",true);
+		String add = test.getAddress();
+		System.out.println(add);
+	}
 
 }
