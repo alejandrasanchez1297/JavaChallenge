@@ -2,18 +2,24 @@ package AccountWorld;
 
 public class Product implements java.io.Serializable{
 	
-/** Attributes, the type selected was Strings because of the information used  */
+/*
+ *  Attributes, the type selected was Strings because of the information used  
+ */
 	
 	private String sku;
 	private String name;
 	private String description;
 	
-/** Methods */
+/*
+ * Methods 
+ */
 	
 	public Product() {		
 	}
 	
- /** Getters */	
+ /*
+  *  Getters 
+  */	
 	public String getSku ()
 	{
 		return sku;
@@ -27,7 +33,9 @@ public class Product implements java.io.Serializable{
 		return description;
 	}
 	
- /** Setters */
+ /* 
+  * Setters 
+  */
 	public void setSku(String newSku)
 	{
 		sku=newSku;

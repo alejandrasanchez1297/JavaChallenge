@@ -4,8 +4,15 @@ import java.util.*;
 
 public class ShoppingCart {
 
+/*
+ * Attributes
+ */
+	
 	private List<LineItem> items;
 	
+/*
+ * Methods
+ */
 	public ShoppingCart() {
 		items = new ArrayList<LineItem>();
 	}

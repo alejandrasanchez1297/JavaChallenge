@@ -14,7 +14,7 @@ public class Account {
 	private List <Address> addresses;
 	private List <PaymentMethod> methods;
 	
-/**
+/*
  * Methods
  */
 	
@@ -45,6 +45,7 @@ public class Account {
 	public void destroyMethods() {
 		
 		methods = new ArrayList<PaymentMethod>();
+
 	}
 	
 	public void destroyAddresses() {

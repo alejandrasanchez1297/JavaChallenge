@@ -4,7 +4,7 @@ import java.util.Date;
 
 public class CreditCard extends PaymentMethod{
 	
-/** 
+/*
  * Attributes, the number attribute 
  * is an integer type because card numbers are always integers.
  */
@@ -13,7 +13,9 @@ public class CreditCard extends PaymentMethod{
 	private int maxInstallements;
 	private Issuer issuer;
 	
-/** Methods */
+/*
+ *  Methods 
+ */
 	
 	public CreditCard(){
 		

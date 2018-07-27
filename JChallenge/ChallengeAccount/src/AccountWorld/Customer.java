@@ -3,7 +3,7 @@ package AccountWorld;
 
 public class Customer implements java.io.Serializable {
 
-/** 
+/*
  * Attributes 
  */
 
@@ -13,11 +13,15 @@ public class Customer implements java.io.Serializable {
 	private String userName;
 	private String password;
 
-/** Methods */	
+/*
+ * Methods
+ */	
 	public Customer() {
 		
 	}
- /** Getters */	
+ /*
+  * Getters 
+  */	
 	public int getId() {
 		return id;
 	}
@@ -34,7 +38,9 @@ public class Customer implements java.io.Serializable {
 		return password;
 	}
 	
- /** Setters */	
+ /* 
+  * Setters 
+  */	
 	public void setId(int newId) {
 		id=newId;
 	}

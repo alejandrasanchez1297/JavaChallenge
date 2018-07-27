@@ -1,10 +1,16 @@
 package AccountWorld;
 
 public class LineItem {
-
+/*
+ * Attributes
+ */
 	private int quantity;
 	private double price;
 	private Product product;
+	
+/*
+ * Methods
+ */
 	
 	public LineItem(int q, double prc) {
 		quantity=q;
